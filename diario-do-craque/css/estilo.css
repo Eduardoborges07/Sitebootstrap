@@ -1,0 +1,43 @@
+/* css/estilo.css */
+:root {
+    --primary-color: #28a745; /* Verde Futebol */
+    --secondary-color: #20232a; /* Preto da bola/chuteira */
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f8f9fa;
+}
+
+.navbar-brand {
+    font-weight: bold;
+    color: var(--primary-color) !important;
+}
+
+.hero-text {
+    background-color: rgba(0, 0, 0, 0.6); /* Fundo escuro transparente */
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.card-img-top {
+    height: 200px;
+    object-fit: cover;
+}
+
+footer {
+    background-color: var(--secondary-color);
+    color: white;
+    padding: 20px 0;
+}
+
+.social-icons a {
+    color: white;
+    margin: 0 10px;
+    font-size: 1.5rem;
+    text-decoration: none;
+}
+
+.social-icons a:hover {
+    color: var(--primary-color);
+}
