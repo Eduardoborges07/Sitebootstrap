@@ -1,27 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">⚽ Diário do Craque</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link active" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="sobre.html">Sobre</a></li>
+                    <li class="nav-item"><a class="nav-link" href="curiosidades.html">Curiosidades</a></li>
+                    <li class="nav-item"><a class="nav-link" href="equipe.html">Equipe</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contato.html">Contato</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+</body>
+</html>
 <section class="container my-5">
     <div class="text-center mb-5">
-        <h2>Nossa Escalação</h2>
-        <p class="text-muted">Conheça quem faz o Diário do Craque acontecer.</p>
+        <h2 class="fw-bold text-uppercase">Quem Escala o Time</h2>
+        <div class="bg-success mx-auto" style="width: 60px; height: 3px;"></div>
     </div>
+
     <div class="row justify-content-center">
-<div class="col-md-6 text-center mx-auto"> <div class="card border-0 shadow-lg h-100">
-        <img src="img/equipe1.jpg" class="rounded-circle mx-auto d-block mt-4 border border-success border-3" style="width: 180px; height: 180px; object-fit: cover;" alt="Foto do Eduardo">
-        
-        <div class="card-body p-4"> <h3 class="card-title fw-bold text-dark">Eduardo</h3>
-            <h6 class="card-subtitle mb-4 text-success fw-bold text-uppercase">Fundador & Desenvolvedor Full-Stack</h6>
-            
-            <p class="card-text text-muted text-start lh-lg"> Entusiasta do futebol e estudante de tecnologia, Eduardo une essas duas paixões no desenvolvimento do <strong>Diário do Craque</strong>. Com um olhar atento tanto para as táticas dentro das quatro linhas quanto para a estrutura do código, fundou este portal para ser o ponto de encontro definitivo dos amantes da bola.
-            </p>
-            <p class="card-text text-muted text-start lh-lg">
-                Além de responsável pela curadoria de conteúdo e pesquisa histórica, atuou como desenvolvedor front-end do projeto, aplicando tecnologias modernas para garantir uma experiência fluida e interativa. Seu objetivo é provar que o futebol vai muito além dos 90 minutos, trazendo curiosidades que enriquecem a resenha de todo torcedor.
-            </p>
-            
-            <div class="mt-4 border-top pt-3">
-                <a href="#" class="btn btn-outline-dark rounded-circle mx-1"><i class="bi bi-github"></i></a>
-                <a href="#" class="btn btn-outline-primary rounded-circle mx-1"><i class="bi bi-linkedin"></i></a>
-                <a href="#" class="btn btn-outline-danger rounded-circle mx-1"><i class="bi bi-instagram"></i></a>
+        <div class="col-md-8 col-lg-6">
+            <div class="card border-0 shadow-lg overflow-hidden">
+                <div class="row g-0">
+                    <div class="col-md-12 text-center bg-light pt-4">
+                        <img src="../imagem/Captura de tela 2025-12-10 094308.png" class="rounded-circle border border-success border-3 shadow" style="width: 180px; height: 180px; object-fit: cover;" alt="Eduardo">
+                    </div>
+                    <div class="col-md-12">
+                        <div class="card-body p-4 text-center">
+                            <h3 class="card-title fw-bold text-dark">Eduardo</h3>
+                            <h6 class="card-subtitle mb-4 text-success fw-bold text-uppercase">Fundador & Desenvolvedor Full-Stack</h6>
+                            
+                            <p class="card-text text-muted text-start lh-lg px-3">
+                                Entusiasta do futebol e estudante de tecnologia, Eduardo une essas duas paixões no desenvolvimento do <strong>Diário do Craque</strong>. Com um olhar atento tanto para as táticas dentro das quatro linhas quanto para a estrutura do código, fundou este portal para ser o ponto de encontro definitivo dos amantes da bola.
+                            </p>
+                            <p class="card-text text-muted text-start lh-lg px-3">
+                                Além de responsável pela curadoria de conteúdo e pesquisa histórica, atuou como desenvolvedor front-end do projeto, aplicando tecnologias modernas para garantir uma experiência fluida e interativa. Seu objetivo é provar que o futebol vai muito além dos 90 minutos.
+                            </p>
+
+                            <div class="mt-4 pt-3 border-top">
+                                <a href="#" class="btn btn-dark rounded-circle mx-1"><i class="bi bi-github"></i></a>
+                                <a href="#" class="btn btn-primary rounded-circle mx-1"><i class="bi bi-linkedin"></i></a>
+                                <a href="#" class="btn btn-danger rounded-circle mx-1"><i class="bi bi-instagram"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
-</div>
 </section>
+<div class="row justify-content-center mt-5">
+    <div class="col-md-8">
+        <h3 class="text-center mb-4 fw-bold">
+            <i class="bi bi-people-fill text-success"></i> Bastidores & Vagas
+        </h3>
+
+        <div class="accordion shadow-sm" id="accordionEquipe">
+            
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingEquipeOne">
+                    <button class="accordion-button fw-bold text-dark" type="button" data-bs-toggle="collapse" data-bs-target="#collapseEquipeOne">
+                        Como faço para entrar no time do Diário?
+                    </button>
+                </h2>
+                <div id="collapseEquipeOne" class="accordion-collapse collapse show" data-bs-parent="#accordionEquipe">
+                    <div class="accordion-body text-muted">
+                        Estamos sempre de olho em novos talentos! Se você escreve bem, edita vídeos ou manja de programação (e ama futebol, claro), envie seu portfólio para <strong>vagas@diariodocraque.com.br</strong>. Quando abrir a janela de transferências, entraremos em contato!
+                    </div>
+                </div>
+            </div>
+
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingEquipeTwo">
+                    <button class="accordion-button collapsed fw-bold text-dark" type="button" data-bs-toggle="collapse" data-bs-target="#collapseEquipeTwo">
+                        Para quais times os membros torcem?
+                    </button>
+                </h2>
+                <div id="collapseEquipeTwo" class="accordion-collapse collapse" data-bs-parent="#accordionEquipe">
+                    <div class="accordion-body text-muted">
+                        Aqui a regra é clara: <strong>profissionalismo em primeiro lugar</strong>. Nossa redação é mista e tem torcedores de todos os grandes clubes (e alguns times de várzea também). Mas, na hora de escrever a matéria, a camisa do clube fica guardada e vestimos a camisa do jornalismo.
+                    </div>
+                </div>
+            </div>
+
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingEquipeThree">
+                    <button class="accordion-button collapsed fw-bold text-dark" type="button" data-bs-toggle="collapse" data-bs-target="#collapseEquipeThree">
+                        Quais tecnologias vocês usam no site?
+                    </button>
+                </h2>
+                <div id="collapseEquipeThree" class="accordion-collapse collapse" data-bs-parent="#accordionEquipe">
+                    <div class="accordion-body text-muted">
+                        Nosso "campo de jogo" é construído com <strong>HTML5, CSS3 e Bootstrap 5</strong> para garantir velocidade e responsividade. Utilizamos também JavaScript para as interações dinâmicas e integração com APIs de mapas e redes sociais.
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+<body>
+    <footer class="text-center bg-dark text-white py-4">
+        <div class="container">
+            <div class="social-icons mb-3">
+                <a href="#" class="text-white mx-2"><i class="bi bi-facebook"></i></a>
+                <a href="#" class="text-white mx-2"><i class="bi bi-instagram"></i></a>
+                <a href="#" class="text-white mx-2"><i class="bi bi-twitter"></i></a>
+            </div>
+            <p class="mb-0">© 2025 Diário do Craque. Desenvolvido por Eduardo.</p>
+        </div>
+    </footer>
+    
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
